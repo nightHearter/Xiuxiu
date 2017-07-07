@@ -617,6 +617,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KWTH75RP44;
 				INFOPLIST_FILE = Xiuxiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiuxiu.Xiuxiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -634,6 +635,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KWTH75RP44;
 				INFOPLIST_FILE = Xiuxiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiuxiu.Xiuxiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
