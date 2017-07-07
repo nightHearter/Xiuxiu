@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046217BB1F0F845B00301707 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046217BA1F0F845B00301707 /* yw_1222.jpg */; };
 		04C3FEB71F0CD5E7000F5E1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3FEB61F0CD5E7000F5E1F /* AppDelegate.swift */; };
 		04C3FEB91F0CD5E7000F5E1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3FEB81F0CD5E7000F5E1F /* ViewController.swift */; };
 		04C3FEBC1F0CD5E7000F5E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C3FEBA1F0CD5E7000F5E1F /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046217BA1F0F845B00301707 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
 		04C3FEB31F0CD5E7000F5E1F /* Xiuxiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xiuxiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C3FEB61F0CD5E7000F5E1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C3FEB81F0CD5E7000F5E1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		04C3FEB51F0CD5E7000F5E1F /* Xiuxiu */ = {
 			isa = PBXGroup;
 			children = (
+				046217BA1F0F845B00301707 /* yw_1222.jpg */,
 				04C3FEB61F0CD5E7000F5E1F /* AppDelegate.swift */,
 				04C3FEB81F0CD5E7000F5E1F /* ViewController.swift */,
 				04C3FEBA1F0CD5E7000F5E1F /* Main.storyboard */,
@@ -287,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046217BB1F0F845B00301707 /* yw_1222.jpg in Resources */,
 				04C3FEC41F0CD5E7000F5E1F /* LaunchScreen.storyboard in Resources */,
 				04C3FEC11F0CD5E7000F5E1F /* Assets.xcassets in Resources */,
 				04C3FEBC1F0CD5E7000F5E1F /* Main.storyboard in Resources */,
@@ -711,6 +715,7 @@
 				04C3FEE01F0CD5E7000F5E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C3FEE11F0CD5E7000F5E1F /* Build configuration list for PBXNativeTarget "XiuxiuTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +724,7 @@
 				04C3FEE31F0CD5E7000F5E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C3FEE41F0CD5E7000F5E1F /* Build configuration list for PBXNativeTarget "XiuxiuUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +733,7 @@
 				04C3FEE61F0CD5E7000F5E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
