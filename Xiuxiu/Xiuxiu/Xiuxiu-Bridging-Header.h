@@ -3,3 +3,5 @@
 //
 
 #import <AlibcTradeSDK/AlibcTradeSDK.h>
+#import <AlibcTradeSDK/AlibcTradeService.h>
+

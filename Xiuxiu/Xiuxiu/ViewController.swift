@@ -12,7 +12,22 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        test()
+    }
+    
+    func test() {
+        
+        let service = AlibcTradeSDK.sharedInstance().tradeService()
+        
+        let page = AlibcTradePageFactory.myCartsPage()
+        
+        
+        service?.show(navigationController!, page: page, showParams: nil, taoKeParams: nil, trackParam: nil, tradeProcessSuccessCallback: { (result) in
+            print(result)
+        }, tradeProcessFailedCallback: { (error) in
+            print(error)
+        })
     }
 
     override func didReceiveMemoryWarning() {
