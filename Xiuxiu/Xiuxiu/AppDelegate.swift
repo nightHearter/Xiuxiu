@@ -16,7 +16,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // ----------------------阿里百川---------------------------
+        // 百川平台基础SDK初始化，加载并初始化各个业务能力插件
+        AlibcTradeSDK.sharedInstance().asyncInit(success: { 
+            
+        }) { (error) in
+            print(error.debugDescription)
+        }
+        
+        // 开发阶段打开日志开关，方便排查错误信息
+        //默认调试模式打开日志,release关闭,可以不调用下面的函数
+        AlibcTradeSDK.sharedInstance().setDebugLogOpen(true)
+        
+        // 配置全局的淘客参数
+        //如果没有阿里妈妈的淘客账号,setTaokeParams函数需要调用
+        let taokeParams = AlibcTradeTaokeParams()
+//        taokeParams.pid = ""
+        AlibcTradeSDK.sharedInstance().setTaokeParams(taokeParams)
+        
+        //设置全局的app标识，在电商模块里等同于isv_code
+        //没有申请过isv_code的接入方,默认不需要调用该函数
+//        AlibcTradeSDK.sharedInstance().setISVCode("your_isv_code")
+        
+        // 设置全局配置，是否强制使用h5
+        AlibcTradeSDK.sharedInstance().setIsForceH5(false)
+        
         return true
     }
 

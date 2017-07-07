@@ -40,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		046217BA1F0F845B00301707 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		046217BC1F0F866900301707 /* Xiuxiu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xiuxiu-Bridging-Header.h"; sourceTree = "<group>"; };
 		04C3FEB31F0CD5E7000F5E1F /* Xiuxiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xiuxiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C3FEB61F0CD5E7000F5E1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C3FEB81F0CD5E7000F5E1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 				04C3FEC21F0CD5E7000F5E1F /* LaunchScreen.storyboard */,
 				04C3FEC51F0CD5E7000F5E1F /* Info.plist */,
 				04C3FEBD1F0CD5E7000F5E1F /* Xiuxiu.xcdatamodeld */,
+				046217BC1F0F866900301707 /* Xiuxiu-Bridging-Header.h */,
 			);
 			path = Xiuxiu;
 			sourceTree = "<group>";
@@ -249,6 +251,7 @@
 					04C3FEB21F0CD5E7000F5E1F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = KWTH75RP44;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					04C3FEC91F0CD5E7000F5E1F = {
@@ -611,11 +614,14 @@
 			baseConfigurationReference = 6F86593EA1645731D2530EB5 /* Pods-Xiuxiu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KWTH75RP44;
 				INFOPLIST_FILE = Xiuxiu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiuxiu.Xiuxiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Xiuxiu/Xiuxiu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -625,11 +631,13 @@
 			baseConfigurationReference = 5B6F71A6D08FD891D39B7CE8 /* Pods-Xiuxiu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KWTH75RP44;
 				INFOPLIST_FILE = Xiuxiu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiuxiu.Xiuxiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Xiuxiu/Xiuxiu-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
