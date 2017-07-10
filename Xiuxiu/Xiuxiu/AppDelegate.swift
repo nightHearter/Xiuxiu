@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 配置全局的淘客参数
         //如果没有阿里妈妈的淘客账号,setTaokeParams函数需要调用
         let taokeParams = AlibcTradeTaokeParams()
-//        taokeParams.pid = ""
+        taokeParams.pid = "mm_125539092_0_0"
         AlibcTradeSDK.sharedInstance().setTaokeParams(taokeParams)
         
         //设置全局的app标识，在电商模块里等同于isv_code
