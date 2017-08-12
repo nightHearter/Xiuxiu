@@ -31,7 +31,6 @@ class XXMainViewController: UIViewController {
         
         goodsTableView.register(UINib(nibName: "XXMainTableViewCell", bundle: nil), forCellReuseIdentifier: "mainTableViewCell")
         
-//        goodsTableView.rowHeight = 150
         
     }
     
@@ -110,7 +109,14 @@ extension XXMainViewController: UITableViewDelegate {
         return 150
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let welVC = XXWebViewController()
+        welVC.urlStr = goodsArr?[indexPath.row].popDiscountUrl ?? "https://www.baidu.com"
+        
+        navigationController?.pushViewController(welVC, animated: true)
+        
+    }
     
 }
 
