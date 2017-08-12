@@ -1,50 +1,14 @@
 PODS:
-  - AlibabaAuthSDK (1.1.0.31):
-    - BCUserTrack
-    - mtop
-    - SecurityGuardSDK
-    - SGMain
-    - SGSecurityBody
-  - AlibcLinkPartnerSDK (1.1.0.9):
-    - UTDID
-  - AlibcTradeSDK (3.1.1.97):
-    - AlibabaAuthSDK
-    - AlibcLinkPartnerSDK
-    - AlipaySDK (= 2.0.0-bc)
-    - BCUserTrack
-    - mtop
-    - SecurityGuardSDK
-    - SGMain
-  - AlipaySDK (2.0.0-bc)
-  - BCUserTrack (5.1.0.9):
-    - UTDID
-  - mtop (2.0.3):
-    - SecurityGuardSDK
-    - SGMain
-    - SGSecurityBody
-  - SecurityGuardSDK (5.1.94)
-  - SGMain (5.1.94):
-    - SecurityGuardSDK (= 5.1.94)
-  - SGSecurityBody (5.1.29):
-    - SecurityGuardSDK (>= 5.1.94)
-    - SGMain (>= 5.1.94)
-  - UTDID (1.1.0.16)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
 
 DEPENDENCIES:
-  - AlibcTradeSDK
+  - SDWebImage
 
 SPEC CHECKSUMS:
-  AlibabaAuthSDK: 48fdbd517aac2155064db12c8776849f273f3242
-  AlibcLinkPartnerSDK: 0d74d4365124cee35a9e24ee6c1456d0477eed33
-  AlibcTradeSDK: 53c61313467ef901cf3fc79c300c3efb971e6852
-  AlipaySDK: a40a4099b24328d90d7ba4fb67f6ce753d7fa2c7
-  BCUserTrack: 684f468b8143be7a2ed10a8c449fd959b2a3a099
-  mtop: 1513ec32f69174bd7c95a07d393f26ef1cad3af7
-  SecurityGuardSDK: 05f6d782189160f2b23b731eed5cb314ce584855
-  SGMain: 8a3008d8a709259d4868f78ae3265659e58e4416
-  SGSecurityBody: 098c981416d0f04faa605642e2da3bb556419f73
-  UTDID: c28855683c5ea2e77e597cb14609328f7d470d6e
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: c2211105c97928fa2c947056f7e6a457fbf18a0e
+PODFILE CHECKSUM: 6e9d0e20ba630d463bba076fd9bc15f7143d0c0b
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.0.1
